@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>Web Camera with WebRTC</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+  <div id="main">
+    <h1>Web Camera with WebRTC</h1>
+    <video id="myVideo" style="-webkit-transform: scaleX(-1);" autoplay="1"></video>
+    <canvas id="canvas"></canvas>
+    <div id="captures"></div>
+  </div>
+
+  <script src="js/lib/jquery-2.1.1.min.js"></script>
+  <script src="js/video/capture.js"></script>
+  <script src="js/video/processing.js"></script>
+  <script src="js/video/video.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
